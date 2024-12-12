@@ -1,0 +1,31 @@
+/* Основной контейнер аккордеона */
+.accordion {
+    margin: 10px 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+/* Заголовок аккордеона */
+.accordion-header {
+
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Добавим эффект наведения */
+.accordion-header:hover {
+    color: #dcdcdc; /* Цвет текста при наведении */
+}
+
+/* Контент аккордеона */
+.accordion-content {
+    padding: 10px 15px;
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: transparent; /* Убираем фон */
+}
